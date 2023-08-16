@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+.restaurants {
+  list-style: none;
+  padding: 5px;
+}
+
+.restaurants a {
+  text-decoration: none;
+  color:#588157;
+}
+
+.restaurants a:hover {
+  color:rgb(97, 97, 97);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
